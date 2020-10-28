@@ -1,6 +1,16 @@
+section {
+    display: flex;
+    justify-content: center;
+}
+
 .picture {
     width: 200px;
     height: 200px;
+    min-width: 200px;
+    margin: 4rem 0.1rem;
+    position: relative;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.3);
+    transition: 0.7s ease-in;
 }
 
 /*# sourceMappingURL=style.css.map */
